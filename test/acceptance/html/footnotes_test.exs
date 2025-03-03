@@ -27,8 +27,8 @@ defmodule Acceptance.Html.FootnotesTest do
           [
             {"li", [{"id", "fn:1"}],
               [
-                {"a", backlink_atts, ["↩"]},
-                {"p", [], ["\nbar baz      "]}
+                {"p", [], ["\nbar baz      "]},
+                {"a", backlink_atts, ["↩"]}
               ]}
           ]}
       ] = footnote
